@@ -8,11 +8,11 @@ namespace ML
 {
     public class Libro
     { 
-        public string IdLibro { get; set; }
+        public int IdLibro { get; set; }
         public string Nombre { get; set; } 
 
         public int NumeroPaginas { get; set; }
-        public DateTime FechaPublicacion { get; set; }
+        public string FechaPublicacion { get; set; }
         public string Edicion { get; set; }
 
         // Propiedades de navegacion 
